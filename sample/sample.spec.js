@@ -1,4 +1,13 @@
-
+/*  describe('Login', () => {
+     it('should log in with credentials', () => {
+        cy.visit('/login');
+        cy.get('[name=login_name]').type(Cypress.env('login'));
+        cy.get('[name=passwd]').type(Cypress.env('password'));
+        cy.get('[name=send]').click();
+        cy.get('.main-header').should('be.visible');
+    });
+});
+*/
 describe('My First Test', function() {
 	it('Does not much', function() {
 		expect(true).to.equal(true)	
